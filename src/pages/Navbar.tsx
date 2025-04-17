@@ -24,10 +24,10 @@ const Navbar = () => {
             </Center>
 
             <SideRight>
-                <IconBtn onClick={toggleDrawer(true)}>
+                <IconBtn disableRipple={true} disableFocusRipple={true} onClick={toggleDrawer(true)}>
                     <MenuIcon></MenuIcon>
                 </IconBtn>
-                <Sidenav toggleDrawer={toggleDrawer} open={open} onClose={toggleDrawer(false)} />
+                <Sidenav toggleDrawer={toggleDrawer} open={open} onClose={toggleDrawer(false)} setOpen={setOpen}/>
             </SideRight>
         </Wrapper>
     );
