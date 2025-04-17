@@ -34,7 +34,7 @@ const Wrapper = styled(Box)`
 `
 
 const Icon = styled(Flag)`
-    width: 40px;
+    width: 30px;
     margin: 0;
     padding: 0;
 `
