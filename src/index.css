@@ -1,0 +1,38 @@
+
+
+@font-face {
+    font-family: 'Macsans';
+    src: url('src/assets/fonts/macsans.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hurme';
+    src: url('src/assets/fonts/HurmeGeometricSans1-Regular.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hurme';
+    src: url('src/assets/fonts/HurmeGeometricSans1-Light.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hurme';
+    src: url('src/assets/fonts/HurmeGeometricSans1-SemiBold.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+*, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Macsans', sans-serif;
+    width: 100%;
+    height: 100%;
+}
